@@ -1,0 +1,13 @@
+{
+  "id": "deb",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Metadatenprofile für Testaufgaben: Deutsch StarS BKT"
+    }
+  ],
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "profiles": [
+    "unit.json"
+  ]
+}

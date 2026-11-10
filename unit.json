@@ -1,0 +1,194 @@
+{
+  "id": "https://w3id.org/iqb/p32/unit/",
+  "label": [
+    {
+      "lang": "de",
+      "value": "IQB Deutsch StarS BKT - Aufgabe"
+    }
+  ],
+  "target": [
+    "UNIT"
+  ],
+  "groups": [
+    {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Aufgabe"
+        }
+      ],
+      "entries": [
+        {
+          "id": "f0",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Klassenstufe"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "http://w3id.org/openeduhub/vocabs/educationalLevel/",
+            "allowMultipleValues": true,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "iqb_phones",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kopfhörereinsatz"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v24/kh/",
+            "allowMultipleValues": false,
+            "hideNumbering": true
+          }
+        },
+        {
+          "id": "w8",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Kompetenzbereich"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v12/s1/",
+            "allowMultipleValues": false,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_feature_mb",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Weitere inhaltliche Merkmale"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/mm/",
+            "allowMultipleValues": false,
+            "maxLevel": 1
+          }
+        },
+        {
+          "id": "iqb_transcript",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Hörsequenz Transkript"
+            }
+          ],
+          "type": "TEXT",
+          "parameters": {
+            "format": "MULTILINE"
+          }
+        },
+        {
+          "id": "iqb_time_unit",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Aufgabenzeit"
+            }
+          ],
+          "type": "NUMBER",
+          "parameters": {
+            "minValue": 0,
+            "digits": 0,
+            "isPeriodSeconds": true
+          }
+        },
+        {
+          "id": "iqb_stimulusformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Stimulusformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/st/",
+            "allowMultipleValues": true,
+            "maxLevel": 1,
+            "selectionMode": "IN_FORM"
+          }
+        },
+        {
+          "id": "iqb_antwortformat",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Antwortformat"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/at/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_player",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Player"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/ap/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_type_test",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Testtyp"
+            }
+          ],
+          "type": "VOCABULARY",
+          "parameters": {
+            "url": "https://w3id.org/iqb/v32/tt/",
+            "allowMultipleValues": true
+          }
+        },
+        {
+          "id": "iqb_redirekt",
+          "label": [
+            {
+              "lang": "de",
+              "value": "Automatische Weiterleitung"
+            }
+          ],
+          "type": "BOOLEAN",
+          "parameters": {
+            "trueLabel": [
+              {
+                "lang": "de",
+                "value": "ja"
+              }
+            ],
+            "falseLabel": [
+              {
+                "lang": "de",
+                "value": "nein"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
