@@ -3,7 +3,7 @@
   "label": [
     {
       "lang": "de",
-      "value": "IQB Deutsch StarS BKT - Aufgabe"
+      "value": "IQB Deutsch StarS-BKT - Aufgabe"
     }
   ],
   "target": [
@@ -59,21 +59,6 @@
           "type": "VOCABULARY",
           "parameters": {
             "url": "https://w3id.org/iqb/v12/s1/",
-            "allowMultipleValues": false,
-            "maxLevel": 1
-          }
-        },
-        {
-          "id": "iqb_feature_mb",
-          "label": [
-            {
-              "lang": "de",
-              "value": "Weitere inhaltliche Merkmale"
-            }
-          ],
-          "type": "VOCABULARY",
-          "parameters": {
-            "url": "https://w3id.org/iqb/v32/mm/",
             "allowMultipleValues": false,
             "maxLevel": 1
           }

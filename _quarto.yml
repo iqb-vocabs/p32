@@ -11,7 +11,7 @@ website:
     search: true
     left:
         - href: index.qmd
-          text: "Testphase: Metadatenprofile für Testaufgaben: Deutsch StarS BKT"
+          text: "Metadatenprofile für Testaufgaben: Deutsch StarS-BKT"
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/p32

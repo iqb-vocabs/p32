@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0 1.0",
-  "description": "Metadatenprofile: Deutsch StarS BKT",
+  "description": "Metadatenprofile: Deutsch StarS-BKT",
   "scripts": {
     "validate": "validate-md-profile && validate-md-profile -md"
   },
