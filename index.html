@@ -125,7 +125,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#iqb-deutsch-stars-bkt---aufgabe" id="toc-iqb-deutsch-stars-bkt---aufgabe" class="nav-link active" data-scroll-target="#iqb-deutsch-stars-bkt---aufgabe">IQB Deutsch StarS-BKT - Aufgabe</a></li>
+  <li><a href="#iqb-deutsch-stars-bkt---aufgabe" id="toc-iqb-deutsch-stars-bkt---aufgabe" class="nav-link active" data-scroll-target="#iqb-deutsch-stars-bkt---aufgabe">IQB Deutsch StarS-BKT - Aufgabe</a>
+  <ul class="collapse">
+  <li><a href="#stimulus" id="toc-stimulus" class="nav-link" data-scroll-target="#stimulus">Stimulus</a></li>
+  <li><a href="#antwort" id="toc-antwort" class="nav-link" data-scroll-target="#antwort">Antwort</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -157,6 +161,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="iqb-deutsch-stars-bkt---aufgabe" class="level1">
 <h1>IQB Deutsch StarS-BKT - Aufgabe</h1>
 <p>ID of profile: <a href="https://w3id.org/iqb/p32/unit/">https://w3id.org/iqb/p32/unit/</a></p>
+<section id="stimulus" class="level2">
+<h2 class="anchored" data-anchor-id="stimulus">Stimulus</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 15%">
@@ -198,22 +204,10 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">iqb_transcript</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Aufgabenzeit</td>
-<td style="text-align: center;">Zahl</td>
-<td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
-<td style="text-align: center;">iqb_time_unit</td>
-</tr>
-<tr class="even">
 <td style="text-align: left;">Stimulusformat</td>
 <td style="text-align: center;"><a href="https://w3id.org/iqb/v32/st/">Vokabular</a></td>
 <td style="text-align: left;">url: ‘<a href="https://w3id.org/iqb/v32/st/">https://w3id.org/iqb/v32/st/</a>’, Mehrfachauswahl, Zeige nur erste Ebene, integrierte Darstellung</td>
 <td style="text-align: center;">iqb_stimulusformat</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Antwortformat</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v32/at/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘<a href="https://w3id.org/iqb/v32/at/">https://w3id.org/iqb/v32/at/</a>’, Mehrfachauswahl, Dialogbox</td>
-<td style="text-align: center;">iqb_antwortformat</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Player</td>
@@ -235,8 +229,54 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</section>
+<section id="antwort" class="level2">
+<h2 class="anchored" data-anchor-id="antwort">Antwort</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name/Label</th>
+<th style="text-align: center;">Typ</th>
+<th style="text-align: left;">Parameter</th>
+<th style="text-align: center;">ID Profil-Eintrag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Anzahl Antwortmöglichkeiten</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v32/am/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘<a href="https://w3id.org/iqb/v32/am/">https://w3id.org/iqb/v32/am/</a>’, Einmalauswahl, Dialogbox</td>
+<td style="text-align: center;">iqb_number_response</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mehrfachantwort</td>
+<td style="text-align: center;">Ja/Nein</td>
+<td style="text-align: left;">Text für WAHR: ja, Text für FALSCH: nein</td>
+<td style="text-align: center;">iqb_multiple_response</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Antwortformat</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v32/st/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘<a href="https://w3id.org/iqb/v32/st/">https://w3id.org/iqb/v32/st/</a>’, Mehrfachauswahl, Zeige nur erste Ebene, Dialogbox</td>
+<td style="text-align: center;">iqb_response_format</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Tastatur</td>
+<td style="text-align: center;">Ja/Nein</td>
+<td style="text-align: left;">Text für WAHR: Tastatur eingeblendet, Text für FALSCH: Computertastatur</td>
+<td style="text-align: center;">iqb_keyboard</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
